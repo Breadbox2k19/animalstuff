@@ -227,10 +227,10 @@
                   <li>Blunt</li>
                   <li>Poke</li>
                 </capacities>
-                <power>14</power>
+                <power>15</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-                <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+                <armorPenetrationBlunt>5</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
                 <label>right hoof</label>
@@ -238,10 +238,10 @@
                   <li>Blunt</li>
                   <li>Poke</li>
                 </capacities>
-                <power>14</power>
+                <power>15</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-                <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+                <armorPenetrationBlunt>5</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
                 <label>bite</label>
