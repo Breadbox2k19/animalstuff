@@ -121,8 +121,8 @@
                 <capacities>
                   <li>Blunt</li>
                 </capacities>
-                <power>28</power>
-                <cooldownTime>2.1</cooldownTime>
+                <power>30</power>
+                <cooldownTime>2.2</cooldownTime>
                 <armorPenetrationBlunt>20</armorPenetrationBlunt>
                 <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
               </li>
@@ -131,8 +131,8 @@
                 <capacities>
                   <li>Blunt</li>
                 </capacities>
-                <power>28</power>
-                <cooldownTime>2.1</cooldownTime>
+                <power>30</power>
+                <cooldownTime>2.2</cooldownTime>
                 <armorPenetrationBlunt>20</armorPenetrationBlunt>
                 <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
               </li>
