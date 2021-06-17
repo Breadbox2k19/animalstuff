@@ -186,7 +186,7 @@
                   <li>Bite</li>
                 </capacities>
                 <power>36</power>
-                <cooldownTime>2.48</cooldownTime>
+                <cooldownTime>2.4</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <armorPenetrationSharp>1.33</armorPenetrationSharp>
                 <armorPenetrationBlunt>12</armorPenetrationBlunt>
@@ -312,9 +312,9 @@
                   <li>Bite</li><li>Stab</li>
                 </capacities>
                 <power>38</power>
-                <cooldownTime>2.08</cooldownTime>
+                <cooldownTime>2.0</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <armorPenetrationSharp>0.95</armorPenetrationSharp>
+                <armorPenetrationSharp>1</armorPenetrationSharp>
                 <armorPenetrationBlunt>8.5</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
