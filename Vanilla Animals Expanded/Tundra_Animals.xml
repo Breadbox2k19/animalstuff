@@ -13,7 +13,7 @@
           <xpath>/Defs/ThingDef[defName="AEXP_MegaWolverine"]/statBases</xpath>
 
           <value>
-            <MeleeDodgeChance>0.07</MeleeDodgeChance>
+            <MeleeDodgeChance>0.1</MeleeDodgeChance>
             <MeleeCritChance>0.64</MeleeCritChance>
             <MeleeParryChance>0.29</MeleeParryChance>
           </value>
@@ -29,11 +29,11 @@
                 <capacities>
                   <li>Scratch</li>
                 </capacities>
-                <power>29</power>
-                <cooldownTime>1.4</cooldownTime>
+                <power>36</power>
+                <cooldownTime>1.37</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-                <armorPenetrationSharp>0.48</armorPenetrationSharp>
-                <armorPenetrationBlunt>11.25</armorPenetrationBlunt>
+                <armorPenetrationSharp>1.25</armorPenetrationSharp>
+                <armorPenetrationBlunt>16.25</armorPenetrationBlunt>
                 <surpriseAttack>
                   <extraMeleeDamages>
                     <li>
@@ -48,11 +48,11 @@
                 <capacities>
                   <li>Scratch</li>
                 </capacities>
-                <power>29</power>
-                <cooldownTime>1.4</cooldownTime>
+                <power>36</power>
+                <cooldownTime>1.37</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-                <armorPenetrationSharp>0.48</armorPenetrationSharp>
-                <armorPenetrationBlunt>11.25</armorPenetrationBlunt>
+                <armorPenetrationSharp>1.25</armorPenetrationSharp>
+                <armorPenetrationBlunt>16.25</armorPenetrationBlunt>
                 <surpriseAttack>
                   <extraMeleeDamages>
                     <li>
@@ -66,10 +66,10 @@
                 <capacities>
                   <li>Bite</li>
                 </capacities>
-                <power>44</power>
-                <cooldownTime>1.7</cooldownTime>
+                <power>51</power>
+                <cooldownTime>1.88</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <armorPenetrationSharp>3.6</armorPenetrationSharp>
+                <armorPenetrationSharp>4.8</armorPenetrationSharp>
                 <armorPenetrationBlunt>38</armorPenetrationBlunt>
                 <surpriseAttack>
                   <extraMeleeDamages>
@@ -85,10 +85,10 @@
                 <capacities>
                   <li>Blunt</li>
                 </capacities>
-                <power>16</power>
+                <power>19</power>
                 <cooldownTime>2.8</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-                <armorPenetrationBlunt>8</armorPenetrationBlunt>
+                <armorPenetrationBlunt>12</armorPenetrationBlunt>
               </li>
             </tools>
           </value>
@@ -100,7 +100,7 @@
 
           <value>
             <MeleeDodgeChance>0.07</MeleeDodgeChance>
-            <MeleeCritChance>0.14</MeleeCritChance>
+            <MeleeCritChance>0.21</MeleeCritChance>
             <MeleeParryChance>0.14</MeleeParryChance>
           </value>
         </li>
@@ -126,8 +126,8 @@
                 <capacities>
                   <li>Blunt</li><li>Poke</li>
                 </capacities>
-                <power>12</power>
-                <cooldownTime>1.7</cooldownTime>
+                <power>13</power>
+                <cooldownTime>1.65</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
               </li>
