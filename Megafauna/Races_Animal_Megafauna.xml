@@ -127,13 +127,13 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Arthropleura"]/statBases/ArmorRating_Blunt</xpath>
 					<value>
-						<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+						<ArmorRating_Blunt>1</ArmorRating_Blunt>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Arthropleura"]/statBases/ArmorRating_Sharp</xpath>
 					<value>
-						<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+						<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
@@ -145,10 +145,10 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Bite</li>
 								</capacities>
-								<power>12</power>
-								<cooldownTime>2.25</cooldownTime>
+								<power>14</power>
+								<cooldownTime>2.45</cooldownTime>
 								<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-								<armorPenetrationSharp>0.05</armorPenetrationSharp>
+								<armorPenetrationSharp>0.15</armorPenetrationSharp>
 								<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
 							</li>
 						</tools>
@@ -161,20 +161,20 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 					<xpath>/Defs/ThingDef[defName="Doedicurus"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.04</MeleeDodgeChance>
-						<MeleeCritChance>0.13</MeleeCritChance>
-						<MeleeParryChance>0.35</MeleeParryChance>
+						<MeleeCritChance>0.23</MeleeCritChance>
+						<MeleeParryChance>0.48</MeleeParryChance>
 					</value>
 				</li>	
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Doedicurus"]/statBases/ArmorRating_Blunt</xpath>
 					<value>
-						<ArmorRating_Blunt>18</ArmorRating_Blunt>
+						<ArmorRating_Blunt>16</ArmorRating_Blunt>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Doedicurus"]/statBases/ArmorRating_Sharp</xpath>
 					<value>
-						<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+						<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
@@ -184,10 +184,10 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 							<li Class="CombatExtended.ToolCE">
 								<label>tail</label>
 								<capacities>
-									<li>Blunt</li>
+									<li>Blunt</li><li>Poke</li>
 								</capacities>
-								<power>26</power>
-								<cooldownTime>4</cooldownTime>
+								<power>28</power>
+								<cooldownTime>3.8</cooldownTime>
 								<linkedBodyPartsGroup>TailWeapon</linkedBodyPartsGroup>
 								<surpriseAttack>
 									<extraMeleeDamages>
@@ -197,8 +197,8 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 										</li>
 									</extraMeleeDamages>
 								</surpriseAttack>
-								<armorPenetrationBlunt>10.985</armorPenetrationBlunt>
-								<chanceFactor>0.25</chanceFactor>
+								<armorPenetrationBlunt>16.985</armorPenetrationBlunt>
+								<chanceFactor>0.5</chanceFactor>
 							</li>
 							<li Class="CombatExtended.ToolCE">
 								<label>left claw</label>
@@ -227,7 +227,7 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Bite</li>
 								</capacities>
-								<power>15</power>
+								<power>12</power>
 								<cooldownTime>2.1</cooldownTime>
 								<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 								<armorPenetrationSharp>0.07</armorPenetrationSharp>
@@ -305,9 +305,9 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName="Gigantopithecus"]/statBases</xpath>
 					<value>
-						<MeleeDodgeChance>0.11</MeleeDodgeChance>
-						<MeleeCritChance>0.18</MeleeCritChance>
-						<MeleeParryChance>0.19</MeleeParryChance>
+						<MeleeDodgeChance>0.18</MeleeDodgeChance>
+						<MeleeCritChance>0.32</MeleeCritChance>
+						<MeleeParryChance>0.23</MeleeParryChance>
 					</value>
 				</li>				
 				<li Class="PatchOperationReplace">
@@ -331,31 +331,31 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
-								<power>14</power>
-								<cooldownTime>2.05</cooldownTime>
+								<power>23</power>
+								<cooldownTime>2.0</cooldownTime>
 								<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-								<armorPenetrationBlunt>5.184</armorPenetrationBlunt>
+								<armorPenetrationBlunt>10.884</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
 								<label>right fist</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
-								<power>14</power>
-								<cooldownTime>2.05</cooldownTime>
+								<power>23</power>
+								<cooldownTime>2</cooldownTime>
 								<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-								<armorPenetrationBlunt>5.184</armorPenetrationBlunt>
+								<armorPenetrationBlunt>10.884</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
 								<label>teeth</label>
 								<capacities>
 									<li>Bite</li>
 								</capacities>
-								<power>12</power>
+								<power>27</power>
 								<cooldownTime>2.3</cooldownTime>
 								<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-								<armorPenetrationSharp>0.04</armorPenetrationSharp>
-								<armorPenetrationBlunt>2.7</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.75</armorPenetrationSharp>
+								<armorPenetrationBlunt>5</armorPenetrationBlunt>
 							</li>
 						</tools>
 					</value>
@@ -467,7 +467,7 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 									<li>Bite</li>
 								</capacities>
 								<power>33</power>
-								<cooldownTime>2.35</cooldownTime>
+								<cooldownTime>2.18</cooldownTime>
 								<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
 								<surpriseAttack>
 									<extraMeleeDamages>
@@ -477,7 +477,7 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 										</li>
 									</extraMeleeDamages>
 								</surpriseAttack>
-								<armorPenetrationSharp>0.06</armorPenetrationSharp>
+								<armorPenetrationSharp>0.75</armorPenetrationSharp>
 								<armorPenetrationBlunt>5.445</armorPenetrationBlunt>
 							</li>
 						</tools>
@@ -490,8 +490,8 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 					<xpath>/Defs/ThingDef[defName="Titanoboa"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.12</MeleeDodgeChance>
-						<MeleeCritChance>0.27</MeleeCritChance>
-						<MeleeParryChance>0.57</MeleeParryChance>
+						<MeleeCritChance>0.44</MeleeCritChance>
+						<MeleeParryChance>0.33</MeleeParryChance>
 					</value>
 				</li>				
 				<li Class="PatchOperationReplace">
@@ -515,8 +515,8 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>BiteBlunt</li>
 								</capacities>
-								<power>88</power>
-								<cooldownTime>2.5</cooldownTime>
+								<power>80</power>
+								<cooldownTime>2.98</cooldownTime>
 								<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
 								<surpriseAttack>
 									<extraMeleeDamages>
@@ -573,27 +573,27 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
-								<power>31</power>
+								<power>34</power>
 								<cooldownTime>2.55</cooldownTime>
 								<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-								<armorPenetrationBlunt>12.96</armorPenetrationBlunt>
+								<armorPenetrationBlunt>25.96</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
 								<label>right foot</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
-								<power>31</power>
+								<power>34</power>
 								<cooldownTime>2.55</cooldownTime>
 								<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-								<armorPenetrationBlunt>12.96</armorPenetrationBlunt>
+								<armorPenetrationBlunt>25.96</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
 								<label>head</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
-								<power>55</power>
+								<power>58</power>
 								<cooldownTime>4</cooldownTime>
 								<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 								<armorPenetrationBlunt>25</armorPenetrationBlunt>
@@ -690,10 +690,10 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 									<li>Scratch</li>
 								</capacities>
 								<power>16</power>
-								<cooldownTime>1.5</cooldownTime>
+								<cooldownTime>1.0</cooldownTime>
 								<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-								<armorPenetrationSharp>0.34</armorPenetrationSharp>
-								<armorPenetrationBlunt>2.366</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.36</armorPenetrationSharp>
+								<armorPenetrationBlunt>3.166</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
 								<label>right claw</label>
@@ -701,18 +701,18 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 									<li>Scratch</li>
 								</capacities>
 								<power>16</power>
-								<cooldownTime>1.5</cooldownTime>
+								<cooldownTime>1.0</cooldownTime>
 								<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-								<armorPenetrationSharp>0.34</armorPenetrationSharp>
-								<armorPenetrationBlunt>2.366</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.36</armorPenetrationSharp>
+								<armorPenetrationBlunt>3.166</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
 								<label>teeth</label>
 								<capacities>
-									<li>Bite</li>
+									<li>Bite</li><li>Stab</li>
 								</capacities>
-								<power>26</power>
-								<cooldownTime>1.95</cooldownTime>
+								<power>28</power>
+								<cooldownTime>1.85</cooldownTime>
 								<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 								<surpriseAttack>
 									<extraMeleeDamages>
@@ -722,7 +722,7 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 										</li>
 									</extraMeleeDamages>
 								</surpriseAttack>
-								<armorPenetrationSharp>0.14</armorPenetrationSharp>
+								<armorPenetrationSharp>0.75</armorPenetrationSharp>
 								<armorPenetrationBlunt>6.802</armorPenetrationBlunt>
 							</li>
 						</tools>
@@ -1413,8 +1413,8 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Bite</li>
 								</capacities>
-								<power>23</power>
-								<cooldownTime>1.8</cooldownTime>
+								<power>32</power>
+								<cooldownTime>1.85</cooldownTime>
 								<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 								<surpriseAttack>
 									<extraMeleeDamages>
@@ -1424,7 +1424,7 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 										</li>
 									</extraMeleeDamages>
 								</surpriseAttack>
-								<armorPenetrationSharp>0.07</armorPenetrationSharp>
+								<armorPenetrationSharp>0.8</armorPenetrationSharp>
 								<armorPenetrationBlunt>5.07</armorPenetrationBlunt>
 							</li>
 						</tools>
