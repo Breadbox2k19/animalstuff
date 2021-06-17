@@ -2475,7 +2475,7 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Scratch</li>
 								</capacities>
-								<power>11</power>
+								<power>10</power>
 								<cooldownTime>1.8</cooldownTime>
 								<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 								<armorPenetrationSharp>0.1</armorPenetrationSharp>
@@ -2486,7 +2486,7 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Scratch</li>
 								</capacities>
-								<power>11</power>
+								<power>10</power>
 								<cooldownTime>1.8</cooldownTime>
 								<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 								<armorPenetrationSharp>0.1</armorPenetrationSharp>
@@ -2500,7 +2500,7 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<power>21</power>
 								<cooldownTime>1.95</cooldownTime>
 								<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-								<armorPenetrationSharp>0.15</armorPenetrationSharp>
+								<armorPenetrationSharp>0.33</armorPenetrationSharp>
 								<armorPenetrationBlunt>4.32</armorPenetrationBlunt>
 								<chanceFactor>0.7</chanceFactor>
 							</li>
@@ -2550,10 +2550,10 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Scratch</li>
 								</capacities>
-								<power>17</power>
-								<cooldownTime>1.4</cooldownTime>
+								<power>13</power>
+								<cooldownTime>1.24</cooldownTime>
 								<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-								<armorPenetrationSharp>0.59</armorPenetrationSharp>
+								<armorPenetrationSharp>0.3</armorPenetrationSharp>
 								<armorPenetrationBlunt>2.94</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
@@ -2561,10 +2561,10 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Scratch</li>
 								</capacities>
-								<power>17</power>
-								<cooldownTime>1.4</cooldownTime>
+								<power>13</power>
+								<cooldownTime>1.24</cooldownTime>
 								<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-								<armorPenetrationSharp>0.59</armorPenetrationSharp>
+								<armorPenetrationSharp>0.3</armorPenetrationSharp>
 								<armorPenetrationBlunt>2.94</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
@@ -2572,8 +2572,8 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 								<capacities>
 									<li>Bite</li>
 								</capacities>
-								<power>26</power>
-								<cooldownTime>1.9</cooldownTime>
+								<power>24</power>
+								<cooldownTime>1.8</cooldownTime>
 								<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 								<surpriseAttack>
 									<extraMeleeDamages>
@@ -2583,8 +2583,8 @@ https://docs.google.com/spreadsheets/d/1pnhJUo3bkEPxhpmPrHj4spPdvjifLhOsnfFrZmOo
 										</li>
 									</extraMeleeDamages>
 								</surpriseAttack>
-								<armorPenetrationSharp>0.08</armorPenetrationSharp>
-								<armorPenetrationBlunt>6.338</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.6</armorPenetrationSharp>
+								<armorPenetrationBlunt>5.338</armorPenetrationBlunt>
 							</li>
 						</tools>
 					</value>
