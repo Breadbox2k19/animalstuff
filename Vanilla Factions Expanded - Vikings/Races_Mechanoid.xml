@@ -111,14 +111,14 @@
 	<li Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="VFEV_Mech_Odin"]/statBases</xpath>
 		<value>
-			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Blunt>4</ArmorRating_Blunt>
 		</value>
 	</li>
 
 	<li Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="VFEV_Mech_Odin"]/statBases</xpath>
 		<value>
-			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
 		</value>
 	</li>
 
@@ -173,35 +173,35 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>24.0</power>
+				<power>43.0</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-				<armorPenetrationSharp>8</armorPenetrationSharp>
-				<armorPenetrationBlunt>10</armorPenetrationBlunt>				
+				<armorPenetrationSharp>9</armorPenetrationSharp>
+				<armorPenetrationBlunt>24</armorPenetrationBlunt>				
 			</li>
 			<li Class="CombatExtended.ToolCE">
 				<label>right blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>24.0</power>
+				<power>43.0</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-				<armorPenetrationSharp>8</armorPenetrationSharp>
-				<armorPenetrationBlunt>10</armorPenetrationBlunt>				
+				<armorPenetrationSharp>9</armorPenetrationSharp>
+				<armorPenetrationBlunt>24</armorPenetrationBlunt>				
 			</li>
 			<li Class="CombatExtended.ToolCE">
 				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>30</power>
+				<power>32</power>
 				<cooldownTime>3.20</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<armorPenetrationSharp>0</armorPenetrationSharp>
-				<armorPenetrationBlunt>15</armorPenetrationBlunt>
+				<armorPenetrationBlunt>32</armorPenetrationBlunt>
 				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 			</li>	
 		</tools>
