@@ -35,14 +35,25 @@
 			<li Class="CombatExtended.ToolCE">
 				<label>horns</label>
 				<capacities>
-					<li>Stab</li>
+					<li>Stab</li><li>Poke</li>
 				</capacities>
-				<power>19</power>
-				<cooldownTime>2.12</cooldownTime>
-				<chanceFactor>0.65</chanceFactor>
+				<power>18</power>
+				<cooldownTime>2.18</cooldownTime>
+				<chanceFactor>0.66</chanceFactor>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<armorPenetrationSharp>0.03</armorPenetrationSharp>
-				<armorPenetrationBlunt>2</armorPenetrationBlunt>
+				<armorPenetrationSharp>0.3</armorPenetrationSharp>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>3</cooldownTime>
+				<chanceFactor>0.66</chanceFactor>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
 			</li>
 		</tools>
 		</value>
@@ -67,7 +78,7 @@
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/PawnKindDef[defName="VFEV_WoolyCow"]/combatPower</xpath>
 		<value>
-			<combatPower>40</combatPower>
+			<combatPower>45</combatPower>
 		</value>
 	</li>
 
@@ -114,7 +125,7 @@
 				<power>19</power>
 				<cooldownTime>1.63</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<armorPenetrationSharp>0.12</armorPenetrationSharp>
+				<armorPenetrationSharp>0.3</armorPenetrationSharp>
 				<armorPenetrationBlunt>3.380</armorPenetrationBlunt>
 			</li>
 			<li Class="CombatExtended.ToolCE">
