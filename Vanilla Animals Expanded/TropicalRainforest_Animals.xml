@@ -289,8 +289,8 @@
                 <power>18</power>
                 <cooldownTime>1</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-                <armorPenetrationSharp>0.5</armorPenetrationSharp>
-                <armorPenetrationBlunt>4</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.48</armorPenetrationSharp>
+                <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
                 <surpriseAttack>
                   <extraMeleeDamages>
                     <li>
@@ -308,8 +308,8 @@
                 <power>18</power>
                 <cooldownTime>1</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-                <armorPenetrationSharp>0.5</armorPenetrationSharp>
-                <armorPenetrationBlunt>4</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.48</armorPenetrationSharp>
+                <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
                 <surpriseAttack>
                   <extraMeleeDamages>
                     <li>
@@ -327,7 +327,7 @@
                 <cooldownTime>1.75</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <armorPenetrationSharp>1.2</armorPenetrationSharp>
-                <armorPenetrationBlunt>4</armorPenetrationBlunt>
+                <armorPenetrationBlunt>5</armorPenetrationBlunt>
                 <surpriseAttack>
                   <extraMeleeDamages>
                     <li>
