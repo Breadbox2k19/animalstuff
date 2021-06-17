@@ -92,11 +92,11 @@
                 <capacities>
                   <li>AEXP_MegascorpionVenomousBite</li>
                 </capacities>
-                <power>12</power>
-                <cooldownTime>1.2</cooldownTime>
+                <power>15</power>
+                <cooldownTime>1.45</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-                <armorPenetrationSharp>0.2</armorPenetrationSharp>
-                <armorPenetrationBlunt>0.13</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.5</armorPenetrationSharp>
+                <armorPenetrationBlunt>1.0</armorPenetrationBlunt>
                 <surpriseAttack>
                   <extraMeleeDamages>
                     <li>
@@ -111,10 +111,10 @@
                 <capacities>
                   <li>Bite</li>
                 </capacities>
-                <power>5</power>
+                <power>6</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-                <armorPenetrationSharp>0.05</armorPenetrationSharp>
+                <armorPenetrationSharp>0.08</armorPenetrationSharp>
                 <armorPenetrationBlunt>0.1</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
@@ -152,8 +152,8 @@
                 <capacities>
                   <li>AEXP_RattleSnakeVenomousBite</li>
                 </capacities>
-                <power>12</power>
-                <cooldownTime>2.4</cooldownTime>
+                <power>10</power>
+                <cooldownTime>2.0</cooldownTime>
                 <armorPenetrationSharp>1.2</armorPenetrationSharp>
                 <armorPenetrationBlunt>0.5</armorPenetrationBlunt>
                 <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
