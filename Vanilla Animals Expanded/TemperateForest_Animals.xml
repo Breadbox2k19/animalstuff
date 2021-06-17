@@ -98,7 +98,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="AEXP_Badger"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.21</MeleeDodgeChance>
+					<MeleeDodgeChance>0.27</MeleeDodgeChance>
 					<MeleeCritChance>0.31</MeleeCritChance>
 					<MeleeParryChance>0.08</MeleeParryChance>
 				</value>
@@ -113,8 +113,8 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>11</power>
-							<cooldownTime>1.5</cooldownTime>
+							<power>8</power>
+							<cooldownTime>1.2</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -124,16 +124,16 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationBlunt>0.036</armorPenetrationBlunt>
-							<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.1</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.07</armorPenetrationSharp>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>11</power>
-							<cooldownTime>1.5</cooldownTime>
+							<power>8</power>
+							<cooldownTime>1.2</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -143,15 +143,15 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationBlunt>0.036</armorPenetrationBlunt>
-							<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.1</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.07</armorPenetrationSharp>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>14</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>13</power>
+							<cooldownTime>1.6</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -162,7 +162,7 @@
 								</extraMeleeDamages>
 							</surpriseAttack>
 							<armorPenetrationBlunt>0.675</armorPenetrationBlunt>
-							<armorPenetrationSharp>0.07</armorPenetrationSharp>
+							<armorPenetrationSharp>0.15</armorPenetrationSharp>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
@@ -184,7 +184,7 @@
       <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="AEXP_WildGoose"]/statBases</xpath>
         <value>
-          <MeleeDodgeChance>0.12</MeleeDodgeChance>
+          <MeleeDodgeChance>0.21</MeleeDodgeChance>
           <MeleeCritChance>0.01</MeleeCritChance>
           <MeleeParryChance>0.02</MeleeParryChance>			
         </value>
@@ -199,11 +199,11 @@
               <capacities>
                 <li>Scratch</li>
               </capacities>
-              <power>6</power>
-              <cooldownTime>1.92</cooldownTime>
+              <power>4</power>
+              <cooldownTime>1.3</cooldownTime>
               <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
-              <armorPenetrationSharp>0.08</armorPenetrationSharp>
-              <armorPenetrationBlunt>0.352</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.07</armorPenetrationSharp>
+              <armorPenetrationBlunt>0.25</armorPenetrationBlunt>
             </li>
             <li Class="CombatExtended.ToolCE">
               <capacities>
@@ -212,8 +212,8 @@
               <power>3</power>
               <cooldownTime>1.58</cooldownTime>
               <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
-              <armorPenetrationBlunt>0.16</armorPenetrationBlunt>
-              <armorPenetrationSharp>0.01</armorPenetrationSharp>					
+              <armorPenetrationBlunt>0.2</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.02</armorPenetrationSharp>					
             </li>
             <li Class="CombatExtended.ToolCE">
               <label>head</label>
@@ -279,7 +279,7 @@
               <capacities>
                 <li>Scratch</li>
               </capacities>
-              <power>6</power>
+              <power>5</power>
               <cooldownTime>1.5</cooldownTime>
               <armorPenetrationBlunt>0.18</armorPenetrationBlunt>
               <armorPenetrationSharp>0.05</armorPenetrationSharp>
@@ -290,7 +290,7 @@
               <capacities>
                 <li>Scratch</li>
               </capacities>
-              <power>6</power>
+              <power>5</power>
               <cooldownTime>1.5</cooldownTime>
               <armorPenetrationBlunt>0.18</armorPenetrationBlunt>
               <armorPenetrationSharp>0.05</armorPenetrationSharp>
@@ -300,10 +300,10 @@
               <capacities>
                 <li>Bite</li>
               </capacities>
-              <power>12</power>
-              <cooldownTime>1.65</cooldownTime>
-              <armorPenetrationBlunt>3.375</armorPenetrationBlunt>
-              <armorPenetrationSharp>0.35</armorPenetrationSharp>
+              <power>10</power>
+              <cooldownTime>1.75</cooldownTime>
+              <armorPenetrationBlunt>3.0</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.44</armorPenetrationSharp>
               <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
             </li>
             <li Class="CombatExtended.ToolCE">
@@ -311,10 +311,10 @@
               <capacities>
                 <li>Blunt</li>
               </capacities>
-              <power>4</power>
+              <power>2</power>
               <cooldownTime>1.65</cooldownTime>
               <chanceFactor>0.2</chanceFactor>
-              <armorPenetrationBlunt>0.625</armorPenetrationBlunt>
+              <armorPenetrationBlunt>0.425</armorPenetrationBlunt>
               <armorPenetrationSharp>0</armorPenetrationSharp>
               <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
             </li>
@@ -326,8 +326,8 @@
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="AEXP_Hedgehog"]/statBases</xpath>
         <value>
-          <MeleeDodgeChance>0.17</MeleeDodgeChance>
-          <MeleeCritChance>0.05</MeleeCritChance>
+          <MeleeDodgeChance>0.24</MeleeDodgeChance>
+          <MeleeCritChance>0.03</MeleeCritChance>
           <MeleeParryChance>0</MeleeParryChance>
         </value>
       </li>
@@ -363,7 +363,7 @@
                 <li>Scratch</li>
               </capacities>
               <power>2</power>
-              <cooldownTime>1.67</cooldownTime>
+              <cooldownTime>1.4</cooldownTime>
               <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
               <armorPenetrationBlunt>0.036</armorPenetrationBlunt>
               <armorPenetrationSharp>0.01</armorPenetrationSharp>
@@ -374,7 +374,7 @@
                 <li>Scratch</li>
               </capacities>
               <power>2</power>
-              <cooldownTime>1.67</cooldownTime>
+              <cooldownTime>1.4</cooldownTime>
               <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
               <armorPenetrationBlunt>0.036</armorPenetrationBlunt>
               <armorPenetrationSharp>0.01</armorPenetrationSharp>
