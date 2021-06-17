@@ -14,7 +14,7 @@
 
           <value>
             <MeleeDodgeChance>0.2</MeleeDodgeChance>
-            <MeleeCritChance>0.20</MeleeCritChance>
+            <MeleeCritChance>0.3</MeleeCritChance>
             <MeleeParryChance>0.15</MeleeParryChance>
           </value>
         </li>
@@ -29,9 +29,9 @@
                 <capacities>
                   <li>Blunt</li>
                 </capacities>
-                <power>16</power>
-                <cooldownTime>1</cooldownTime>
-                <armorPenetrationBlunt>6</armorPenetrationBlunt>
+                <power>17</power>
+                <cooldownTime>1.4</cooldownTime>
+                <armorPenetrationBlunt>7</armorPenetrationBlunt>
                 <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
                 <surpriseAttack>
                   <extraMeleeDamages>
@@ -47,9 +47,9 @@
                 <capacities>
                   <li>Blunt</li>
                 </capacities>
-                <power>16</power>
-                <cooldownTime>1</cooldownTime>
-                <armorPenetrationBlunt>6</armorPenetrationBlunt>
+                <power>17</power>
+                <cooldownTime>1.4</cooldownTime>
+                <armorPenetrationBlunt>7</armorPenetrationBlunt>
                 <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
                 <surpriseAttack>
                   <extraMeleeDamages>
@@ -66,8 +66,8 @@
                 </capacities>
                 <power>26</power>
                 <cooldownTime>2</cooldownTime>
-                <armorPenetrationSharp>0.12</armorPenetrationSharp>
-                <armorPenetrationBlunt>9.8</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.65</armorPenetrationSharp>
+                <armorPenetrationBlunt>9.0</armorPenetrationBlunt>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
               </li>
               <li Class="CombatExtended.ToolCE">
